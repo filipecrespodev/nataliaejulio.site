@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Notera';
+  src: url('/fonts/notera.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/notera.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/notera.woff') format('woff'),
+       url('/fonts/notera.ttf')  format('truetype');
+}

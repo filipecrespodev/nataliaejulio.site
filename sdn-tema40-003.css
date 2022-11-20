@@ -1,0 +1,371 @@
+#mobile-menu-principal {
+  background: none
+}
+
+#mobile-menu-principal .navbar-toggle {
+  background-color: rgba(0, 0, 0, 0.9)
+}
+
+body {
+  padding-top: 0
+}
+
+.main {
+  padding-bottom: 0
+}
+
+.sdn-wrapper,
+.sdn-topo .sdn-menu a {
+  color: #9c9c9c;
+  font-family: Affogato
+}
+
+.sdn-topo .header {
+  background-color: #f7f9fa
+}
+
+.sdn-topo .header>.col1,
+.sdn-topo .header>.col2 {
+  padding: 50px 0 30px
+}
+
+.sdn-topo .header>.col1 {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: right
+}
+
+.sdn-topo .header>.col2 {
+  display: none
+}
+
+.sdn-topo .noivos,
+.sdn-titulo-pagina {
+  color: #7c7c7c
+}
+
+.sdn-topo .noivos {
+  font-family: Notera, cursive;
+  font-size: 30px;
+  line-height: 0.85;
+  margin-bottom: 8px
+}
+
+.sdn-topo .sdn-menu {
+  text-transform: uppercase
+}
+
+.sdn-titulo-pagina {
+  font-family: Notera;
+  font-size: 35px !important;
+  line-height: 0.8
+}
+
+.sdn-titulo-pagina:after {
+  background: url(/images/heart.png) no-repeat left top;
+  content: '';
+  display: block;
+  height: 11px;
+  margin: 10px auto 0;
+  width: 137px
+}
+
+.sdn-topo .fundo {
+  background-position: center center;
+  background-size: cover;
+  height: 50vw;
+  max-height: 600px;
+  min-height: 160px
+}
+
+.section-foto-extra1,
+.section-foto-extra2 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vw;
+  margin: 30px 0 7px;
+  max-height: 500px;
+  min-height: 160px
+}
+
+.sdn-one-page-section .button-editar {
+  margin-top: 70px
+}
+
+.sdn-content .sdn-btn-primario {
+  border-color: transparent
+}
+
+.sdn-content .sdn-btn-primario:hover {
+  background-color: #393939
+}
+
+.sdn-one-page-section.section-countdown {
+  background-color: #f7f9fa;
+  padding: 40px 0 30px
+}
+
+.sdn-live-countdown-wrap.loaded>.countdown-content {
+  text-align: center;
+  text-transform: uppercase
+}
+
+.sdn-live-countdown-wrap.loaded>.countdown-content>.item {
+  display: block;
+  margin: 30px 12px
+}
+
+.sdn-live-countdown-wrap.loaded>.countdown-content>.item>.number {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  font-size: 27px;
+  height: 91px;
+  margin: 0 auto 7px;
+  padding-top: 22px;
+  position: relative;
+  width: 91px
+}
+
+.sdn-live-countdown-wrap.loaded>.countdown-content>.item>.number:after {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  content: " ";
+  display: block;
+  height: 66px;
+  left: 9px;
+  position: absolute;
+  top: 9px;
+  width: 66px
+}
+
+.sdn-live-countdown-wrap.loaded>.countdown-content>.item>.txt {
+  font-size: 14px
+}
+
+.section-presentes>.section-wrap {
+  overflow-x: hidden
+}
+
+.sdn-presentes {
+  position: relative
+}
+
+.sdn-presentes:before {
+  background-color: #f7f9fa;
+  content: " ";
+  display: block;
+  height: 100%;
+  left: -500%;
+  position: absolute;
+  top: 0;
+  width: 1500%;
+  z-index: -2
+}
+
+.sdn-presentes>div {
+  margin-top: 10px;
+  padding: 12px 0
+}
+
+.sdn-presentes .sdn-titulo-pagina,
+.sdn-presentes .sdn-intro-pagina {
+  position: relative
+}
+
+.sdn-presentes .sdn-titulo-pagina:before,
+.sdn-presentes .sdn-intro-pagina:before {
+  background-color: #fff;
+  content: " ";
+  display: block;
+  height: 100%;
+  left: -500%;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 1500%;
+  z-index: -1
+}
+
+.sdn-presentes .sdn-titulo-pagina {
+  margin: 0;
+  padding: 20px 0 30px 0
+}
+
+.sdn-presentes .sdn-titulo-pagina.with-intro {
+  padding-bottom: 20px
+}
+
+.sdn-presentes .sdn-intro-pagina {
+  margin: 0;
+  padding-bottom: 30px
+}
+
+.sdn-presentes .presentes>.fluid-grid>li {
+  min-width: 200px
+}
+
+.sdn-presentes .presentes>.fluid-grid>li>.presente {
+  background-color: transparent;
+  border-color: #fff;
+  max-width: 207px
+}
+
+.sdn-presentes .presentes>.fluid-grid>li>.presente>img {
+  background-color: #fff;
+  border-radius: 50%;
+  margin-top: 5%;
+  width: 80%
+}
+
+.sdn-rsvp,
+.sdn-recados .fundo-shadow {
+  text-align: center
+}
+
+.sdn-rsvp form,
+.sdn-recados form {
+  display: inline-block;
+  max-width: 480px;
+  width: 90%
+}
+
+.sdn-rsvp form .form-group,
+.sdn-recados form .form-group {
+  margin: 0 0 15px
+}
+
+.sdn-rsvp form .form-group>*,
+.sdn-recados form .form-group>* {
+  display: block;
+  float: none;
+  width: auto
+}
+
+.sdn-rsvp form .form-group>label,
+.sdn-recados form .form-group>label {
+  font-weight: normal;
+  margin: 0 0 6px 10px;
+  text-align: left
+}
+
+.sdn-rsvp form .form-group input[type=text],
+.sdn-rsvp form .form-group input[type=tel],
+.sdn-rsvp form .form-group input[type=email],
+.sdn-rsvp form .form-group textarea,
+.sdn-recados form .form-group input[type=text],
+.sdn-recados form .form-group input[type=email],
+.sdn-recados form .form-group textarea {
+  background-color: #fff;
+  border: 1px solid #ababab;
+  border-radius: 7px;
+  height: 50px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  width: 100%
+}
+
+.sdn-rsvp form .form-group-submit>label,
+.sdn-recados form .form-group-submit>label {
+  display: none
+}
+
+.sdn-rsvp form .form-group-submit .btn,
+.sdn-recados form .form-group-submit .btn {
+  border-radius: 7px;
+  float: right;
+  padding: 10px 40px
+}
+
+.sdn-rsvp form .form-group-confirmacao>.col-reset-height {
+  text-align: left
+}
+
+.sdn-rsvp form .form-group-confirmacao>.col-reset-height>label {
+  font-weight: normal
+}
+
+.sdn-rsvp form .form-group-confirmacao input[type=radio] {
+  height: 20px;
+  margin: 2px 5px 0 -8px;
+  width: 20px
+}
+
+.sdn-rsvp form .form-group-qtd>label {
+  float: left
+}
+
+.sdn-rsvp form textarea {
+  height: 85px !important
+}
+
+.sdn-recados .fundo-shadow {
+  background-color: #fff;
+  padding: 0
+}
+
+.sdn-recados form textarea {
+  height: 130px !important
+}
+
+.sdn-rodape {
+  background-color: #f7f9fa;
+  padding: 50px 0
+}
+
+@media (min-width:520px) {
+  .sdn-live-countdown-wrap.loaded>.countdown-content>.item {
+    display: inline-block;
+    margin: 12px
+  }
+}
+
+@media (min-width:768px) {
+  body.sdn-menu-fixed .sdn-menu.desktop {
+    left: 0;
+    padding-top: 10px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-box-shadow: 0px 10px 5px -4px rgba(204, 204, 204, 0.5);
+    -moz-box-shadow: 0px 10px 5px -4px rgba(204, 204, 204, 0.5);
+    box-shadow: 0px 10px 5px -4px rgba(204, 204, 204, 0.5)
+  }
+
+  .sdn-topo .header {
+    overflow: hidden;
+    width: 100%
+  }
+
+  .sdn-topo .header>.col1,
+  .sdn-topo .header>.col2 {
+    display: block;
+    float: left
+  }
+
+  .sdn-topo .header>.col1 {
+    text-align: right;
+    width: 32%
+  }
+
+  .sdn-topo .header>.col2 {
+    padding-left: 75px;
+    width: 67.5%
+  }
+
+  .section-foto-extra1,
+  .section-foto-extra2 {
+    margin: 40px 0 10px
+  }
+
+  .sdn-presentes .presentes .presente>.comprar>button {
+    font-size: initial
+  }
+}
+
+@media (min-width:992px) {}
+
+@media (min-width:1200px) {}

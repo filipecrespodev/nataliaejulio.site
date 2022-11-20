@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Affogato';
+  src: url('/fonts/affogato-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/affogato-regular.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/affogato-regular.woff') format('woff'),
+       url('/fonts/affogato-regular.ttf')  format('truetype');
+}
